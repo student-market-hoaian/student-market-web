@@ -33,10 +33,10 @@ export default defineNuxtConfig({
   css: ['vuetify/lib/styles/main.sass'],
   devtools: { enabled: true },
   formkit: {
-    configFile: './config/formkit.config.ts'
+    configFile: './configs/formkit.config.ts'
   },
   i18n: {
-    vueI18n: './config/i18n.config.ts'
+    vueI18n: './configs/i18n.config.ts'
   },
   modules: [
     '@nuxtjs/tailwindcss',

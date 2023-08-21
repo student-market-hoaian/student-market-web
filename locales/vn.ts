@@ -1,3 +1,83 @@
 export default {
-  welcome: 'Xin chào'
+  common: {
+    filter: {
+      createdFrom: 'Từ ngày',
+      createdTo: 'Đến ngày',
+      all: 'Tất cả',
+      search: 'Tìm kiếm',
+      date: 'Ngày',
+      month: 'Tháng'
+    },
+    model: {
+      id: '#',
+      name: 'Tên',
+      email: 'Email',
+      phone: 'Số điện thoại',
+      dateOfBirth: 'Ngày sinh',
+      address: 'Địa chỉ',
+      password: 'Mật khẩu',
+      passwordConfirmation: 'Nhập lại mật khẩu',
+      createdAt: 'Ngày tạo',
+      updatedAt: 'Ngày sửa',
+      hours: 'Giờ',
+      minutes: 'Phút',
+      expiredDate: 'Ngày hết hạn',
+      status: 'Trạng thái',
+      expiredLicenses: 'Thời hạn bằng lái của tài xế'
+    },
+    action: {
+      filter: 'Lọc',
+      view: 'Xem',
+      create: 'Thêm',
+      update: 'Sửa',
+      delete: 'Xóa',
+      cancel: 'Hủy',
+      back: 'Quay lại',
+      close: 'Đóng',
+      reset: 'Bỏ lọc',
+      send: 'Gửi',
+      apply: 'Áp dụng',
+      save: 'Lưu',
+      new: 'Mới',
+      remind: 'Nhắc nhở',
+      confirm: 'Xác nhận',
+      approve: 'Duyệt',
+      reject: 'Từ chối',
+      action: 'Hành động',
+      choose: 'Chọn',
+      enable: 'Bật',
+      disable: 'Tă',
+      import: 'Nhập tập tin',
+      export: 'Xuất tập tin',
+      upload: 'Tải lên',
+      download: 'Tải xuống',
+      continue: 'Tiếp tục',
+      edit: 'Chỉnh sửa',
+      increment: 'Tăng',
+      add: 'Thêm',
+      change: 'Thay đổi',
+      skip: 'Bỏ qua',
+      search: 'Tìm kiếm',
+      postMessage: 'Đăng tin',
+      account: 'Tài khoản',
+      post: 'Quản lý tin'
+    },
+    notice: {
+      success: 'Thành công',
+      failed: 'Thất bại',
+      checkedIn: 'Bạn đã điểm danh vào ngày hôm nay.',
+      checkedOut: 'Bạn đã điểm danh ra ngày hôm nay.'
+    },
+    message: {
+      pageNotFound: 'Xin lỗi, chúng tôi dường như không thể tìm thấy trang bạn đang tìm kiếm.',
+      serverError: 'Lỗi! Vui lòng thử lại sau.',
+      warningTitle: 'Cảnh báo',
+      confirmTitle: 'Xác nhận',
+      confirmDeletionMessage: 'Bạn chắc chắn muốn xóa?',
+      errorType: 'Loại tệp không hợp lệ. Chỉ cho phép hình ảnh hoặc video',
+      errorFile: 'Kích thước tệp không được vượt quá {_size_}',
+      phoneInvalid: 'Số điện thoại không hợp lệ',
+      confirmRemindLeave: 'Bạn có chắc chắn muốn nhắc nghỉ không?'
+    }
+  }
 }

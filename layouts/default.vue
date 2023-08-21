@@ -1,24 +1,16 @@
 <template>
   <v-app id="inspire">
-    <v-system-bar>
+    <v-system-bar color="background">
       <v-spacer />
 
-      <v-icon icon="mdi-square" />
+      <v-icon>mdi-square</v-icon>
 
       <v-icon>mdi-circle</v-icon>
 
       <v-icon>mdi-triangle</v-icon>
     </v-system-bar>
 
-    <v-app-bar>
-      <v-app-bar-nav-icon @click="drawer = !drawer" />
-
-      <v-app-bar-title>Application</v-app-bar-title>
-    </v-app-bar>
-
-    <v-navigation-drawer v-model="drawer" temporary>
-      <!--  -->
-    </v-navigation-drawer>
+    <app-bar />
 
     <v-main class="bg-grey-lighten-2">
       <v-container>
@@ -39,13 +31,13 @@
 </template>
 
 <script setup>
-import { ref } from 'vue'
-
-const drawer = ref(null)
+import AppBar from '@/components/layouts/toolbar/atom/AppBar.vue'
 </script>
 
-<script>
-export default {
-  data: () => ({ drawer: null })
+<style lang="scss">
+.header-tool-bar-title {
+  .v-toolbar-title__placeholder {
+    width: 500px;
+  }
 }
-</script>
+</style>

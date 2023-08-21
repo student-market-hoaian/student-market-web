@@ -1,7 +1,9 @@
-// tailwind.config.js
+// tailwind.configs.js
 const FormKitVariants = require('@formkit/themes/tailwindcss')
 
 module.exports = {
-  content: [...'@/config/tailwind-theme.js'],
+  prefix: 'tw-',
+  important: true,
+  content: [...'@/configs/tailwind-theme.js'],
   plugins: [FormKitVariants]
 }
